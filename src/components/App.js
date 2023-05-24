@@ -96,8 +96,7 @@ const App = () => {
   };
 
   const parseData = (running_transcript) => {
-    // const gptKey = process.env.REACT_APP_GPT_API_KEY;
-    const gptKey = "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";
+    const gptKey = process.env.REACT_APP_GPT_API_KEY;
 
     var prompt =
       "What is company name, source address, destination address, " +
